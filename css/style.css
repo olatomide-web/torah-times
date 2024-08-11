@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6{
+    font-style: bold;
+    font-weight: 800;
+}
+h1{
+    font-size:4.8rem;
+    line-height:94.4px
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.hero{
+    background: linear-gradient(97.64deg, #FAEFF2 35.87%, #F7ECFE 92.34%);
+    
+}
+.nav-item {
+    font-weight: 900;
+}
+.icons{
+    width:15px;
+    height:15px;
+}
+.logo{
+    width:150px
+}
+.hero-img{
+    position: absolute;
+    top:150px;
+    z-index: 1;
+}
+.world-map{
+    
+     You must set a specified height
+     /* Center the image */
+    /* Do not repeat the image */
+     /* Resize the background image to cover the entire container */
+}
+
+@media screen and (max-width: 800px) {
+    .hero-img{
+        position: relative;
+        top: 0px;
+    }
+}
