@@ -1,15 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+div .t{
+    writing-mode: vertical-rl;
+}
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 h1, h2, h3, h4, h5, h6{
-    font-style: bold;
-    font-weight: 800;
+    font-weight: bolder;
+    font-family: "Inter", sans-serif;
+}
+p{
+    font-family: "Inter", sans-serif;
+    font-weight:light;
+
+}
+.btn-red{
+    background: hsla(0, 100%, 50%, 1);
+    color:#fff;
+}
+.red-background{
+    background: hsla(358, 70%, 48%, 1);
+
+}
+.curve{
+    border-radius:20px;
 }
 h1{
+    font-weight: 800;
     font-size:4.8rem;
-    line-height:94.4px
+    font-style: bold;
+}
+h2{
+    font-weight: 800;
+    font-size:2.8rem;
+
 }
 
 * {
@@ -21,6 +46,10 @@ h1{
 .hero{
     background: linear-gradient(97.64deg, #FAEFF2 35.87%, #F7ECFE 92.34%);
     
+}
+.sub-hero{
+    background: hsla(311, 48%, 95%, 1);
+
 }
 .nav-item {
     font-weight: 900;
