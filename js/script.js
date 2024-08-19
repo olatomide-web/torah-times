@@ -7,3 +7,5 @@ $(document).ready(function() {
         $(this).find('.dropdown-menu').removeClass('show');
     });
 });
+
+AOS.init();

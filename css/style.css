@@ -55,8 +55,8 @@ h2{
     font-weight: 900;
 }
 .icons{
-    width:15px;
-    height:15px;
+    width:12px;
+    height:12px;
 }
 .logo{
     width:150px
@@ -65,13 +65,6 @@ h2{
     position: absolute;
     top:150px;
     z-index: 1;
-}
-.world-map{
-    
-     You must set a specified height
-     /* Center the image */
-    /* Do not repeat the image */
-     /* Resize the background image to cover the entire container */
 }
 
 @media screen and (max-width: 800px) {
